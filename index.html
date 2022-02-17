@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./src/style.scss">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/base.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="module" src="src/app.js"></script>
+  </head>
+  <body>
+    <nav class="nav" id="nav">
+      <ul class="nav__links" id="nav-ul">
+        <li class="nav__link">Home</li>
+        <li class="nav__link">About Us</li>
+        <li class="nav__link">Products</li>
+        <li class="nav__link">Service</li>
+        <li class="nav__link">Contact</li>
+      </ul>
+      <div class="nav__hamburger-close">
+        <span id="open-menu" class="nav__hamburger-close-icon material-icons">close</span>
+      </div>
+
+      <div class="nav__hamburger-open">
+        <span id="close-menu" class="nav__hamburger-open-icon material-icons">menu</span>
+      </div>
+    </nav>
+    <section class="hero-banner">
+      <h1 class="hero__title">My<strong>Home</strong>Space</h1>
+      <div class="slider">
+        <div class="slides">
+          <div class="slide"><img class="hero__image" src="./src/assets/img/slider1.jpg" alt="hero image"></div>
+          <div class="slide"><img class="hero__image" src="./src/assets/img/slider2.jpg" alt="hero image"></div>
+          <div class="slide"><img class="hero__image" src="./src/assets/img/slider3.jpeg" alt="hero image"></div>
+        </div>
+      </div>
+    </section>
+    <section class="articles">
+      <article class="article">
+        <h2 class="article__title">Last works</h2>
+        <img class="article__image" src="./src/assets/img/pic1.jpg" alt="">
+        <div class="article__content">
+          <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda at enim fuga laborum minus qui, veniam! A cumque dolorem doloremque explicabo, minima minus quisquam recusandae repellendus vitae voluptas. Eligendi.</p>
+          <div class="article__action"><span></span></div>
+        </div>
+      </article>
+      <article class="article">
+        <h2 class="article__title">Products</h2>
+        <img class="article__image" src="./src/assets/img/pic2.jpg" alt="">
+        <div class="article__content">
+          <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus et ex harum ipsum nemo officia qui, reiciendis. Accusantium assumenda neque nisi temporibus! Dolores eius maiores, minima quibusdam recusandae veritatis.</p>
+          <div class="article__action"><span></span></div>
+        </div>
+      </article>
+      <article class="article">
+        <h2 class="article__title">Service</h2>
+        <img class="article__image" src="./src/assets/img/pic3.jpg" alt="">
+        <div class="article__content">
+          <p class="article__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut corporis delectus dolores, eveniet expedita explicabo facilis incidunt ipsum, labore modi nostrum officia officiis, reiciendis repellendus temporibus velit voluptatibus! Minima!</p>
+          <div class="article__action"><span></span></div>
+        </div>
+      </article>
+    </section>
+    <section class="keypoints">
+      <div class="keypoint">
+        <h2 class="keypoint__title">Tesimonials</h2>
+        <div class="keypoint__point"><span class="material-icons keypoint__icon">chevron_right</span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut deleniti exercitationem fugit in incidunt, ipsam modi, nemo nulla quisquam, reprehenderit soluta suscipit vel! At autem deleniti dicta quo repellat, totam?</p></div>
+        <div class="keypoint__point"><span class="material-icons keypoint__icon">chevron_right</span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut deleniti exercitationem fugit in incidunt, ipsam modi, nemo nulla quisquam, reprehenderit soluta suscipit vel! At autem deleniti dicta quo repellat, totam?</p></div>
+        <div class="keypoint__point"><span class="material-icons keypoint__icon">chevron_right</span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut deleniti exercitationem fugit in incidunt, ipsam modi, nemo nulla quisquam, reprehenderit soluta suscipit vel! At autem deleniti dicta quo repellat, totam?</p></div>
+        <div class="keypoint__point"><span class="material-icons keypoint__icon">chevron_right</span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut deleniti exercitationem fugit in incidunt, ipsam modi, nemo nulla quisquam, reprehenderit soluta suscipit vel! At autem deleniti dicta quo repellat, totam?</p></div>
+        <div class="keypoint__point"><span class="material-icons keypoint__icon">chevron_right</span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut deleniti exercitationem fugit in incidunt, ipsam modi, nemo nulla quisquam, reprehenderit soluta suscipit vel! At autem deleniti dicta quo repellat, totam?</p></div>
+      </div>
+      <div class="keypoint">
+        <h2 class="keypoint__title">Premium services</h2>
+        <h3 class="keypoint__subtitle"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis molestiae omnis perferendis quo repudiandae voluptate.</strong></h3>
+        <p class="keypoint__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet beatae culpa ea et excepturi fuga harum, illum itaque magnam molestias nemo nobis perspiciatis quasi quibusdam quisquam, quo ratione sequi similique!</p>
+        <button class="keypoint__cta">Read More</button>
+      </div>
+      <div class="keypoint">
+        <h2 class="keypoint__title">About us</h2>
+        <h3 class="keypoint__subtitle"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cumque cupiditate dolore dolores explicabo in ipsum itaque iusto labore magnam molestiae.</strong></h3>
+        <p class="keypoint__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at blanditiis consequatur ducimus error eveniet facilis fuga ipsum libero minus molestiae nobis numquam quo, saepe sit, soluta tempore voluptate voluptatibus.</p>
+        <button class="keypoint__cta">Read More</button>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="footer__text">Design by Ispace</p>
+      <img class="footer__image" src="./src/assets/img/reseaux.png" alt="reseaux">
+    </footer>
+  </body>
+</html>
